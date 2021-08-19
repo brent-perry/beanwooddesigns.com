@@ -20,3 +20,16 @@ sarah-header {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 900;
+}
+
+p {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+}
