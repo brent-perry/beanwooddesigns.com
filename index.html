@@ -1,58 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/s/styles.css">
-		<script async defer type="module-shim" src="x/main.js"></script>
-		<script type="importmap-shim" src="x/importmap.json"></script>
-		<script async defer src="node_modules/es-module-shims/dist/es-module-shims.js"></script>
-	</head>
-	<body>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/s/styles.css">
+	<script async defer type="module-shim" src="x/main.js"></script>
+	<script type="importmap-shim" src="x/importmap.json"></script>
+	<script async defer src="node_modules/es-module-shims/dist/es-module-shims.js"></script>
+</head>
+
+<body>
+	<header>
 		<sarah-header></sarah-header>
+	</header>
+	<main>
 		<section>
-			<h1>About</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="about">
+				<h1>About</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.</p>
+			</div>
 		</section>
 		<section>
-			<h1>Furniture</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="furniture">
+				<h1>Furniture</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.</p>
+			</div>
+			<sarah-carousel initiallyHidden>
+				<img src="/img/s.w.w.a_desk.jpeg" />
+				<img src="/img/s.w.w.a_frame.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.1.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.jpeg" />
+				<img src="/img/s.w.w.a_tray.jpeg" />
+			</sarah-carousel>
 		</section>
-		<sarah-carousel initiallyHidden>
-			<img src="/img/s.w.w.a_desk.jpeg"/>
-			<img src="/img/s.w.w.a_frame.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.1.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.jpeg"/>
-			<img src="/img/s.w.w.a_tray.jpeg"/>
-		</sarah-carousel>
 		<section>
-			<h1>Restoration</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="restoration">
+				<h1>Restoration</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.</p>
+			</div>
+			<sarah-carousel initiallyHidden>
+				<img src="/img/s.w.w.a_desk.jpeg" />
+				<img src="/img/s.w.w.a_frame.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.1.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.jpeg" />
+				<img src="/img/s.w.w.a_tray.jpeg" />
+			</sarah-carousel>
 		</section>
-		<sarah-carousel initiallyHidden>
-			<img src="/img/s.w.w.a_desk.jpeg"/>
-			<img src="/img/s.w.w.a_frame.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.1.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.jpeg"/>
-			<img src="/img/s.w.w.a_tray.jpeg"/>
-		</sarah-carousel>
 		<section>
-			<h1>Wood Art</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="wood-art">
+				<h1>Wood Art</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.</p>
+			</div>
+			<sarah-carousel initiallyHidden>
+				<img src="/img/s.w.w.a_desk.jpeg" />
+				<img src="/img/s.w.w.a_frame.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.1.jpeg" />
+				<img src="/img/s.w.w.a_frame_2.jpeg" />
+				<img src="/img/s.w.w.a_tray.jpeg" />
+			</sarah-carousel>
 		</section>
-		<sarah-carousel initiallyHidden>
-			<img src="/img/s.w.w.a_desk.jpeg"/>
-			<img src="/img/s.w.w.a_frame.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.1.jpeg"/>
-			<img src="/img/s.w.w.a_frame_2.jpeg"/>
-			<img src="/img/s.w.w.a_tray.jpeg"/>
-		</sarah-carousel>
 		<section>
-			<h1>Contact</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="contact">
+				<h1>Contact</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.</p>
+			</div>
 		</section>
+	</main>
+	<footer>
 		<sarah-footer></sarah-footer>
-	</body>
+	</footer>
+</body>
+
 </html>
