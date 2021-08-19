@@ -5,8 +5,13 @@ export default css`
 	}
 
 	::slotted(*), img {
-		width: 300px;
-		height: 300px;
+		width: 700px;
+		height: 700px;
 	}
 
+	div {
+		margin-top: 6em;
+		display: flex;
+		justify-content: center;
+	}
 `

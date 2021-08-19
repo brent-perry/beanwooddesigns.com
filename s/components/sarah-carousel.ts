@@ -60,14 +60,12 @@ export class SarahCarousel extends LitElement {
 	render() {
 
 		return html`
-			<div>
 				<div>
 					<button @click=${this.movePrev}>&#8592;</button>
 					<slot></slot>
 					<button @click=${this.moveNext}>&#8594;</button>
 				</div>
 				<button @click=${this.moveDotsNav}>dots</button>
-			</div>
 		`
 	}
 }

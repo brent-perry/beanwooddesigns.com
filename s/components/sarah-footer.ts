@@ -10,7 +10,12 @@ export class SarahFooter extends LitElement {
 	render() {
 
 		return html`
-			<p>Copyright sarahperry</p>
+			<div>
+				<p>Copyright@ Sarah Perry</p>
+				<p>Phone: 444-444-4444</p>
+				<p>Email: sarah@email.com</p>
+				<p>Location: Langford B.C.</p>
+			</div>
 		`
 	}
 }

@@ -2,7 +2,9 @@
 
 body {
 	background-image: url("/img/wood__main_background.jpg");
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
