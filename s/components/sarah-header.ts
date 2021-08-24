@@ -16,12 +16,11 @@ export class SarahHeader extends LitElement {
 			</div>
 			<img src="/img/sarah.w.w.jpeg"/>
 			<nav>
-				<a href="">Wood Art</a>
-				<a href="">Furniture</a>
-				<a href="">Restoration</a>
-				<a href="">Gallery</a>
-				<a href="">About</a>
-				<a href="">Contact</a>
+				<a href="#wood-art">Wood Art</a>
+				<a href="#furniture">Furniture</a>
+				<a href="#restoration">Restoration</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		`
 	}

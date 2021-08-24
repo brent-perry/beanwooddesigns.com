@@ -5,23 +5,23 @@ export default css`
 	}
 
 	div {
+		width: 15%;
 		background-color: #c5b807;
-		padding: 1rem;
-		margin-right: -3rem;
+		padding: 1em;
+		margin-right: -3em;
 		z-index: 999;
-		height: 10rem
+		height: 10em
 	}
 
 	nav {
-		width: 20%;
+		width: 15%;
 		display: flex;
 		flex-wrap: wrap;
-		text-align: center;
 	}
 
 	img {
-		height: 80vh;
-		width: 60%;
+		height: 90vh;
+		width: 70%;
 	}
 
 	a {

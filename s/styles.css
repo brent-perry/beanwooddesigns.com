@@ -11,9 +11,8 @@ body {
 }
 
 sarah-header {
-	margin: 0;
 	width: 100%;
-	height: 80vh;
+	height: 90vh;
 	display: flex;
 	justify-content: center;
 	background-image: url("/img/wood_header_background.jpg");
@@ -21,15 +20,32 @@ sarah-header {
 	background-size: cover;
 }
 
+main {
+	margin-top: 5em;
+}
+
 h1 {
+	font-size: 3em;
 	text-align: center;
 	color: #ffffff;
 	font-weight: 900;
 }
 
 p {
-	width: 50%;
+	font-size: 1.5em;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	color: #ffffff;
+}
+
+.social {
+	text-align: center;
+}
+
+.social img {
+	border-radius: 50%;
+	margin: 1.5em;
+	height: 100px;
+	width: 100px;
 }
