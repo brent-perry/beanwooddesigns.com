@@ -10,11 +10,13 @@ export class SarahHeader extends LitElement {
 	render() {
 
 		return html`
-			<div>
+			<div class="logo">
 				<h1>SP</h1>
 				<p>Woodworking | Design</p>
 			</div>
-			<img src="/img/sarah.w.w.jpeg"/>
+			<div class="header_photo">
+				<img src="/img/s.w.w.a_sarah_header.jpeg"/>
+			</div>
 			<nav>
 				<a href="#wood-art">Wood Art</a>
 				<a href="#furniture">Furniture</a>

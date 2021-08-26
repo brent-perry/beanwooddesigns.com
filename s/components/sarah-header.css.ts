@@ -4,31 +4,37 @@ export default css`
 		color: #000000;
 	}
 
-	div {
-		width: 15%;
+	.logo {
+		width: 20%;
 		background-color: #c5b807;
 		padding: 1em;
-		margin-right: -3em;
+		margin-left: 1em;
 		z-index: 999;
 		height: 10em
 	}
 
-	nav {
-		width: 15%;
-		display: flex;
-		flex-wrap: wrap;
+	.header_photo {
+		text-align: center;
+		width: 50%;
 	}
 
 	img {
-		height: 90vh;
-		width: 70%;
+		height: 80vh;
+	}
+
+	nav {
+		width: 20%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 1em;
 	}
 
 	a {
 		text-decoration: none;
+		font-size: 2em;
 		color: #ffffff;
 		width: 100%;
-		padding: 2em;
+		padding: .5em;
 	}
 	
 	a:nth-child(odd) {

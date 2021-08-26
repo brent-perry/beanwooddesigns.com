@@ -15,6 +15,10 @@ export class SarahFooter extends LitElement {
 				<p>Phone: 444-444-4444</p>
 				<p>Email: sarah@email.com</p>
 				<p>Location: Langford B.C.</p>
+				<p>Facebook: Placeholder</p>
+				<p>Instagram: Placeholder</p>
+				<p>Youtube: Placeholder</p>
+				<p>Pinterest: Placeholder</p>
 			</div>
 		`
 	}
