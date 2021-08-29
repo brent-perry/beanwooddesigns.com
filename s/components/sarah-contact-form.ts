@@ -34,8 +34,8 @@ export class SarahContactForm extends LitElement {
 				<option value="oak_bay">Oak Bay</option>
 				</select>
 			
-				<label for="subject">Subject</label>
-				<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+				<label for="subject">How can I help you?</label>
+				<textarea id="subject" name="subject" placeholder="Details..."></textarea>
 			
 				<input type="submit" value="Submit">
 			</form>
