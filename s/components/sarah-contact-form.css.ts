@@ -1,6 +1,11 @@
 import {css} from "lit"
 export default css`
 
+form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 input[type=text], select, textarea {
 	width: 100%;
 	padding: 12px;
@@ -17,7 +22,6 @@ input[type=text], select, textarea {
 
 input[type=submit] {
 	background-color: #1f1e1e;
-	color: #ffffff;
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
@@ -33,13 +37,12 @@ input:focus {
 }
 
 div {
-	font-size: 1.2em;
-	color: #ffffff;
-	border-radius: 5px;
-	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+}
+
+form>input, form>div:last-child {
+	width: 100%;
 }
 
 `

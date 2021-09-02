@@ -24,6 +24,11 @@ main {
 	margin-top: 5em;
 }
 
+section {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
 h1 {
 	font-size: 3em;
 	text-align: center;
@@ -48,4 +53,74 @@ p {
 	margin: 1.5em;
 	height: 100px;
 	width: 100px;
+}
+
+#about, #contact {
+	padding: 2em;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #ffffff;
+	height: 100vh;
+}
+
+#about h1, #about p {
+	color: #000000;
+}
+
+#about div {
+	width: 50%;
+}
+
+#about img {
+	height: 400px;
+	width: 400px;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#gallery>h1 {
+	width: 100%;
+	text-align: center;
+}
+
+#gallery>div {
+	margin: .5em;
+	position: relative;
+}
+
+#gallery h2 {
+	position: absolute;
+	background-color: #ffffff;
+	padding: .5em;
+	bottom: 0;
+	margin-left: .5em;
+}
+
+#restoration>img {
+	height: 500px;
+	width: 500px;
+}
+
+#furniture>img {
+	height: 500px;
+	width: 500px;
+}
+
+#wood-art>img {
+	height: 500px;
+	width: 500px;
+}
+
+#contact div>p, #contact div>h1{
+	color: #000000;
+}
+
+#contact>div {
+	width: 50%;
 }

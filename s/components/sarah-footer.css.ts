@@ -1,7 +1,7 @@
 import {css} from "lit"
 export default css`
 	p {
-		color: #ffffff;
+		color: #000000;
 		width: 25%;
 	}
 
@@ -9,7 +9,7 @@ export default css`
 		text-align: center;
 		font-size: 1.3em;
 		margin-top: 6em;
-		background-color: black;
+		background-color: #ffffff;
 		height: 10em;
 		display: flex;
 		justify-content: space-around;
