@@ -10,33 +10,35 @@ export class SarahFooter extends LitElement {
 	render() {
 
 		return html`
-			<div>
-				<h2>Social Media</h2>
-				<p>Facebook: Placeholder</p>
-				<p>Instagram: Placeholder</p>
-				<p>Youtube: Placeholder</p>
-				<p>Pinterest: Placeholder</p>
-			</div>
-			<div>
-				<h2>Contact</h2>
-				<p>Phone: 444-444-4444</p>
-				<p>Email: sarah@email.com</p>
-			</div>
-			<div>
-				<h2>Location</h2>
-				<p>Victoria</p>
-				<p>B.C.</p>
-				<p>Canada</p>
-			</div>
-			<div>
-				<p>Copyright@ Sarah Perry</p>
-			</div>
-			<div>
-				<h2>Work</h2>
-				<p>Furniture</p>
-				<p>Restoration</p>
-				<p>Wood Art</p>
-			</div>
+			<section>
+				<div>
+					<h2>Social Media</h2>
+					<p>Facebook: Placeholder</p>
+					<p>Instagram: Placeholder</p>
+					<p>Youtube: Placeholder</p>
+					<p>Pinterest: Placeholder</p>
+				</div>
+				<div>
+					<h2>Contact</h2>
+					<p>Phone: 444-444-4444</p>
+					<p>Email: sarah@email.com</p>
+				</div>
+				<div>
+					<h2>Location</h2>
+					<p>Victoria</p>
+					<p>B.C.</p>
+					<p>Canada</p>
+				</div>
+				<div>
+					<h2>Work</h2>
+					<p>Furniture</p>
+					<p>Restoration</p>
+					<p>Wood Art</p>
+				</div>
+				<div>
+					<p>Copyright@ Sarah Perry</p>
+				</div>
+			</section>
 		`
 	}
 }

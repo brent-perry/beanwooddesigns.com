@@ -6,7 +6,7 @@ export default css`
 
 	.logo {
 		width: 20%;
-		background-color: #c5b807;
+		background-color: #f5d8ac;
 		padding: 1em;
 		margin-left: 1em;
 		z-index: 999;

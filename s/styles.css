@@ -20,13 +20,9 @@ sarah-header {
 	background-size: cover;
 }
 
-main {
-	margin-top: 5em;
-}
-
-section {
-	margin-top: 5em;
-	margin-bottom: 5em;
+section, main {
+	margin-top: 7em;
+	margin-bottom: 7em;
 }
 
 h1 {
@@ -38,10 +34,6 @@ h1 {
 
 p {
 	font-size: 1.5em;
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	color: #ffffff;
 }
 
 .social {
@@ -55,13 +47,16 @@ p {
 	width: 100px;
 }
 
+#about {
+	text-align: center;
+}
+
 #about, #contact {
 	padding: 2em;
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	background-color: #ffffff;
+	background-color: #f5d8ac;
 	height: 100vh;
 }
 
@@ -96,7 +91,7 @@ p {
 
 #gallery h2 {
 	position: absolute;
-	background-color: #ffffff;
+	background-color: #f5d8ac;
 	padding: .5em;
 	bottom: 0;
 	margin-left: .5em;
@@ -119,8 +114,13 @@ p {
 
 #contact div>p, #contact div>h1{
 	color: #000000;
+	width: 100%;
 }
 
 #contact>div {
-	width: 50%;
+	margin-left: 5em;
+}
+
+#contact h1 {
+	text-align: start;
 }

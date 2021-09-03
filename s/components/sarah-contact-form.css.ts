@@ -1,6 +1,10 @@
 import {css} from "lit"
 export default css`
 
+#contact-wrapper {
+	width: 70%;
+}
+
 form {
 	display: flex;
 	flex-wrap: wrap;
@@ -17,11 +21,10 @@ input[type=text], select, textarea {
 	resize: vertical;
 	outline: 0;
 	border-width: 0 0 2px;
-	border-color: blue
 }
 
 input[type=submit] {
-	background-color: #1f1e1e;
+	background-color: #d4cc9a;
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
@@ -29,19 +32,25 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background-color: #45a049;
+	background-color: #f2e172;
 }
 
 input:focus {
-	border-color: green
+	border-color: none;
 }
 
 div {
+	padding: 5em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-form>input, form>div:last-child {
+form div {
+	padding: 1em;
+	flex-grow: 1;
+}
+
+form div:nth-child(7) {
 	width: 100%;
 }
 
