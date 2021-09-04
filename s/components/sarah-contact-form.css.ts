@@ -2,7 +2,7 @@ import {css} from "lit"
 export default css`
 
 #contact-wrapper {
-	width: 70%;
+	width: 75%;
 }
 
 form {

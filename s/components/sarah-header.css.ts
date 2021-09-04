@@ -29,6 +29,10 @@ export default css`
 		margin-right: 1em;
 	}
 
+	a:hover {
+		color: #f2e172;
+	}
+
 	a {
 		text-decoration: none;
 		font-size: 2em;
