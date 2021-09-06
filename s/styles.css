@@ -1,7 +1,7 @@
 [initiallyHidden]{display: none;}
 
 body {
-	background-image: url("/img/wood__main_background.jpg");
+	background-image: url("/img/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -15,14 +15,18 @@ sarah-header {
 	height: 80vh;
 	display: flex;
 	justify-content: center;
-	background-image: url("/img/wood_header_background.jpg");
+	background-image: url("/img/header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 section, main {
-	margin-top: 12em;
-	margin-bottom: 12em;
+	margin-top: 20em;
+	margin-bottom: 20em;
+}
+
+section {
+	background-color: #f5d8ac;
 }
 
 h1 {
@@ -64,50 +68,6 @@ p {
 #about img {
 	height: 400px;
 	width: 400px;
-}
-
-#gallery {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-#gallery>h1 {
-	width: 100%;
-	text-align: center;
-}
-
-#gallery>div {
-	margin: .5em;
-	position: relative;
-}
-
-h2 {
-	position: absolute;
-	background-color: #d4cc9a;
-	padding: .5em;
-	bottom: 0;
-	margin-left: .5em;
-}
-
-h2:hover {
-	background-color: #f2e172;
-	cursor: pointer;
-}
-
-#restoration>img {
-	height: 500px;
-	width: 500px;
-}
-
-#furniture>img {
-	height: 500px;
-	width: 500px;
-}
-
-#wood-art>img {
-	height: 500px;
-	width: 500px;
 }
 
 #contact div>p, h3{

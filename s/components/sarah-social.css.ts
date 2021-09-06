@@ -3,6 +3,7 @@ export default css`
 
 div {
 	text-align: center;
+	padding: 1em;
 }
 
 img {
