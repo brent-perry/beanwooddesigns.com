@@ -16,18 +16,22 @@ export default css`
 
 	.gallery-images {
 		position: relative;
-		outline: solid black 8px;
+		outline: solid #ffffff 8px;
+		
 	}
 
-	h2 {
+	a {
 		position: absolute;
-		background-color: #d4cc9a;
+		background-color: #ffffff;
 		padding: .5em;
-		bottom: -19px;
+		bottom: 0px;
+		text-decoration: none;
+		color: #000000;
+		font-size: 1.5em;
 	}
 
-	h2:hover {
-		background-color: #f2e172;
+	a:hover {
+		color: #ff69b4;
 		cursor: pointer;
 	}
 

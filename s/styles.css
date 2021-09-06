@@ -10,23 +10,13 @@ body {
 	padding: 0;
 }
 
-sarah-header {
-	width: 100%;
-	height: 80vh;
-	display: flex;
-	justify-content: center;
-	background-image: url("/img/header.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 section, main {
 	margin-top: 20em;
 	margin-bottom: 20em;
 }
 
 section {
-	background-color: #f5d8ac;
+	background-color: #f5d8acc0;
 }
 
 h1 {
@@ -49,7 +39,6 @@ p {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	background-color: #f5d8ac;
 	height: 100vh;
 }
 

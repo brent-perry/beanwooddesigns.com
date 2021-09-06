@@ -1,32 +1,35 @@
 import {css} from "lit"
 export default css`
+	div {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		background-image: url("/img/header.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		flex-wrap: wrap;
+	}
+
 	h1, p {
-		color: #000000;
+		color: #ffffff;
 	}
 
-	.logo {
-		width: 20%;
-		background-color: #f5d8ac;
-		padding: 1em;
-		margin-left: 1em;
-		z-index: 999;
-		height: 10em
-	}
-
-	.header_photo {
-		text-align: center;
-		width: 50%;
-	}
-
-	img {
-		height: 80vh;
+	p {
+		font-size: 1.5em;
 	}
 
 	nav {
-		width: 20%;
-		display: flex;
-		flex-wrap: wrap;
-		margin-right: 1em;
+		width: 100%;
+		text-align: center;
+		margin-top: 2em;
+	}
+
+	span {
+		text-align: center;
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	a:hover {
@@ -40,8 +43,5 @@ export default css`
 		width: 100%;
 		padding: .5em;
 	}
-	
-	a:nth-child(odd) {
-		text-align: end;
-	}
+
 `
