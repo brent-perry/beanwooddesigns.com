@@ -8,4 +8,10 @@ export default css`
 		flex-wrap: wrap;
 		padding: 3em;
 	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+	}
+
 `

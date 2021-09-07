@@ -13,17 +13,17 @@ export class SarahWork extends LitElement {
 			<div id="work-wrapper">
 				<div>
 					<a><img src="/img/placeholder.jpg" /></a>
-					<a>Wood Art</a>
+					<a href="/pages/wood-art">Wood Art</a>
 					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 				</div>
 				<div>
 					<a><img src="/img/placeholder.jpg" /></a>
-					<a>Furniture</a>
+					<a href="/pages/furniture">Furniture</a>
 					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 				</div>
 				<div>
 					<a><img src="/img/placeholder.jpg" /></a>
-					<a>Restoration</a>
+					<a href="/pages/restoration">Restoration</a>
 					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 				</div>
 			</div>

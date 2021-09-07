@@ -10,19 +10,23 @@ export class SarahHeader extends LitElement {
 	render() {
 
 		return html`
-			<div>
-				<nav>
-					<a target="_blank" href="/pages/wood-art">Wood Art</a>
-					<a target="_blank" href="/pages/furniture">Furniture</a>
-					<a target="_blank" href="/pages/restoration">Restoration</a>
-					<a href="#about">About</a>
-					<a href="#contact">Contact</a>
-				</nav>
-				<span>
-					<h1>Sarah Perry Woodworking</h1>
-					<p>Cheesy line</p>
-					<p>More Cheese</p>
-				</span>
+			<div id="header-background">
+				<div>
+					<nav>
+						<a href="/pages/wood-art">Wood Art</a>
+						<a href="/pages/furniture">Furniture</a>
+						<a href="/pages/restoration">Restoration</a>
+						<a href="#about">About</a>
+						<a href="#contact">Contact</a>
+					</nav>
+					<span>
+						<h1>
+							<a href="/index">Sarah Perry Woodworking</a>
+						</h1>
+						<p>Cheesy line</p>
+						<p>More Cheese</p>
+					</span>
+				</div>
 			</div>
 		`
 	}

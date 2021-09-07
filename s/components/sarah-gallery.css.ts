@@ -4,14 +4,7 @@ export default css`
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		padding: 2em;
-		padding-bottom: 4em;
-	}
-
-	h1 {
-		margin-top: 0;
-		width: 100%;
-		text-align: center;
+		padding: 4em;
 	}
 
 	.gallery-images {

@@ -31,9 +31,9 @@ export class SarahFooter extends LitElement {
 				</div>
 				<div>
 					<h2>Work</h2>
-					<p>Furniture</p>
-					<p>Restoration</p>
-					<p>Wood Art</p>
+					<a href="/pages/furniture">Furniture</a>
+					<a href="/pages/restoration">Restoration</a>
+					<a href="/pages/wood-art">Wood Art</a>
 				</div>
 				<div>
 					<p>Copyright@ Sarah Perry</p>
