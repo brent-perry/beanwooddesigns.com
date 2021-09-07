@@ -31,7 +31,7 @@ export default css`
 		text-align: center;
 	}
 
-	#copyright {
+	.copyright {
 		background-color: #f5d8acc0;
 		text-align: center;
 		width: 100%;

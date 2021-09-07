@@ -10,7 +10,7 @@ export class SarahWork extends LitElement {
 	render() {
 
 		return html`
-			<div id="work-wrapper">
+			<div class="work-wrapper">
 				<div>
 					<a><img src="/img/placeholder.jpg" /></a>
 					<a href="/pages/wood-art">Wood Art</a>
@@ -23,7 +23,7 @@ export class SarahWork extends LitElement {
 				</div>
 				<div>
 					<a><img src="/img/placeholder.jpg" /></a>
-					<a href="/pages/restoration">Restoration</a>
+					<a href="/pages/games">Games</a>
 					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 				</div>
 			</div>

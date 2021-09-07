@@ -1,7 +1,7 @@
 import {css} from "lit"
 export default css`
 
-#contact-wrapper {
+.contact-wrapper {
 	width: 75%;
 }
 

@@ -1,6 +1,6 @@
 import {css} from "lit"
 export default css`
-	#header-background {
+	.header-background {
 		background-image: url("/img/header.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -8,7 +8,7 @@ export default css`
 		height: 100vh;
 	}
 
-	#header-background div {
+	.header-background div {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -58,4 +58,17 @@ export default css`
 		padding: .5em;
 	}
 
+	h2 {
+		color: #ffffff;
+		font-size: 5em;
+		width: 100%;
+		text-align: center;
+		animation: blinker 3s linear infinite;
+	}
+
+	@keyframes blinker {
+		50% {
+			opacity: 0;
+		}
+	}
 `

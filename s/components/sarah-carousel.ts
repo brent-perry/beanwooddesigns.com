@@ -14,6 +14,8 @@ export class SarahCarousel extends LitElement {
 	count = 0
 	@property({type: Boolean, reflect: true})
 	initiallyHidden = true
+	@property({type: Boolean})
+	endOfSlide = true
 	
 	firstUpdated() {
 		this.initiallyHidden = false
@@ -34,13 +36,13 @@ export class SarahCarousel extends LitElement {
 	}
 
 	moveNext = () => {
-		this.count += 1
-		this.updateSlides()
+			this.count += 1
+			this.updateSlides()
 	}
 
 	movePrev = () => {
-		this.count -= 1
-		this.updateSlides()
+			this.count -= 1
+			this.updateSlides()
 	}
 
 	moveDotsNav() {

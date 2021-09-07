@@ -20,8 +20,8 @@ export class SarahFooter extends LitElement {
 				</div>
 				<div>
 					<h2>Contact</h2>
-					<a href="/index#contact">Contact</a>
-					<a href="/index#about">About</a>
+					<a href="/index#contact-link">Contact</a>
+					<a href="/index#about-link">About</a>
 					<a>Phone: 444-444-4444</a>
 					<a>Email: sarah@email.com</a>
 				</div>
@@ -34,11 +34,11 @@ export class SarahFooter extends LitElement {
 				<div>
 					<h2>Work</h2>
 					<a href="/pages/furniture">Furniture</a>
-					<a href="/pages/restoration">Restoration</a>
+					<a href="/pages/games">Games</a>
 					<a href="/pages/wood-art">Wood Art</a>
 				</div>
 			</section>
-			<div id="copyright">
+			<div class="copyright">
 				<p>Copyright@ Sarah Perry</p>
 			</div>
 		`

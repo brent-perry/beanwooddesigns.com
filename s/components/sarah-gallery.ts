@@ -10,21 +10,21 @@ export class SarahGallery extends LitElement {
 	render() {
 
 		return html`
-			<div id="images-wrapper">
+			<div class="images-wrapper">
 				<div>
-					<div id="furniture" class="gallery-images">
+					<div class="furniture gallery-images">
 						<a href="/pages/furniture">Furniture</a>
-						<img src="/img/s.w.w.a_desk.jpeg" />
+						<img src="/img/furniture_1.jpeg" />
 					</div>
 				</div>
 				<div>
-					<div id="wood-art" class="gallery-images">
+					<div class="wood-art gallery-images">
 						<a href="/pages/wood-art">Wood Art</a>
-						<img src="/img/s.w.w.a_frame.jpeg" />
+						<img src="/img/wood-art_1.jpeg" />
 					</div>
-					<div id="restoration" class="gallery-images">
-						<a href="/pages/restoration">Restoration</a>
-						<img src="/img/s.w.w.a_tray.jpeg" />
+					<div class="games gallery-images">
+						<a href="/pages/games">Games</a>
+						<img src="/img/games_1.jpeg" />
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 import {css} from "lit"
 export default css`
-	#work-wrapper {
+	.work-wrapper {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -8,7 +8,7 @@ export default css`
 		text-align: center;
 	}
 
-	#work-wrapper div {
+	.work-wrapper div {
 		display: flex;
 		flex-wrap: wrap;
 		width: 25%;
