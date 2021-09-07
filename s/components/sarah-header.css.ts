@@ -12,7 +12,7 @@ export default css`
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		background-color: #0000007a;
+		background-color: #00000066;
 		width: 100%;
 		height: 100vh;
 	}
@@ -32,7 +32,10 @@ export default css`
 	nav {
 		width: 100%;
 		text-align: center;
-		margin-top: 2em;
+		position: fixed;
+		background-color: #00000066;
+		padding: 1em;
+		z-index: 999;
 	}
 
 	span {
@@ -40,6 +43,7 @@ export default css`
 		font-size: 1.5em;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 9em;
 	}
 
 	a:hover {

@@ -13,15 +13,17 @@ export class SarahFooter extends LitElement {
 			<section>
 				<div>
 					<h2>Social Media</h2>
-					<p>Facebook: Placeholder</p>
-					<p>Instagram: Placeholder</p>
-					<p>Youtube: Placeholder</p>
-					<p>Pinterest: Placeholder</p>
+					<a>Facebook: Placeholder</a>
+					<a>Instagram: Placeholder</a>
+					<a>Youtube: Placeholder</a>
+					<a>Pinterest: Placeholder</a>
 				</div>
 				<div>
 					<h2>Contact</h2>
-					<p>Phone: 444-444-4444</p>
-					<p>Email: sarah@email.com</p>
+					<a href="/index#contact">Contact</a>
+					<a href="/index#about">About</a>
+					<a>Phone: 444-444-4444</a>
+					<a>Email: sarah@email.com</a>
 				</div>
 				<div>
 					<h2>Location</h2>
@@ -35,10 +37,10 @@ export class SarahFooter extends LitElement {
 					<a href="/pages/restoration">Restoration</a>
 					<a href="/pages/wood-art">Wood Art</a>
 				</div>
-				<div>
-					<p>Copyright@ Sarah Perry</p>
-				</div>
 			</section>
+			<div id="copyright">
+				<p>Copyright@ Sarah Perry</p>
+			</div>
 		`
 	}
 }

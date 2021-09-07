@@ -9,17 +9,17 @@ export default css`
 
 	.gallery-images {
 		position: relative;
-		outline: solid #ffffff 8px;
+		outline: solid #000000 8px;
 		
 	}
 
 	a {
 		position: absolute;
-		background-color: #ffffff;
+		background-color: #000000;
 		padding: .5em;
 		bottom: 0px;
 		text-decoration: none;
-		color: #000000;
+		color: #ffffff;
 		font-size: 1.5em;
 	}
 

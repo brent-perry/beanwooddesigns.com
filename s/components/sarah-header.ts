@@ -13,11 +13,12 @@ export class SarahHeader extends LitElement {
 			<div id="header-background">
 				<div>
 					<nav>
+						<a href="/index">Home</a>
 						<a href="/pages/wood-art">Wood Art</a>
 						<a href="/pages/furniture">Furniture</a>
 						<a href="/pages/restoration">Restoration</a>
-						<a href="#about">About</a>
-						<a href="#contact">Contact</a>
+						<a href="/index#about">About</a>
+						<a href="/index#contact">Contact</a>
 					</nav>
 					<span>
 						<h1>

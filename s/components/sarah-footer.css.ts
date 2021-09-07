@@ -1,7 +1,7 @@
 import {css} from "lit"
 export default css`
 	section {
-		margin-top: 20em;
+		margin-top: 12em;
 		background-color: #f5d8acc0;
 		display: flex;
 		justify-content: space-around;
@@ -14,4 +14,26 @@ export default css`
 		color: #000000;
 	}
 
+	a, p {
+		width: 100%;
+	}
+
+	a:hover {
+		color: blue;
+		cursor: pointer;
+	}
+
+	div {
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		width: 25%;
+		text-align: center;
+	}
+
+	#copyright {
+		background-color: #f5d8acc0;
+		text-align: center;
+		width: 100%;
+	}
 `
