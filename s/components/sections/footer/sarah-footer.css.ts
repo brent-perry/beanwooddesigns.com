@@ -1,8 +1,8 @@
 import {css} from "lit"
 export default css`
 	section {
-		margin-top: 12em;
-		background-color: #f5d8acc0;
+		margin-top: 10em;
+		/* background-color: #f5d8acc0; */
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
@@ -11,7 +11,7 @@ export default css`
 
 	a {
 		text-decoration: none;
-		color: #000000;
+		color: #ffffff;
 	}
 
 	a, p {
@@ -32,7 +32,7 @@ export default css`
 	}
 
 	.copyright {
-		background-color: #f5d8acc0;
+		/* background-color: #f5d8acc0; */
 		text-align: center;
 		width: 100%;
 	}

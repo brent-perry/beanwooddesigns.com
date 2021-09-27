@@ -9,13 +9,32 @@ export class SarahHeader extends LitElement {
 		return html`
 			<div class="header-background">
 				<div>
-					<nav>
-						<a href="/index">Home</a>
-						<a href="/pages/wood-art">Wood Art</a>
-						<a href="/pages/furniture">Furniture</a>
-						<a href="/pages/games">Games</a>
-						<a href="/index#about-link">About</a>
-						<a href="/index#contact-link">Contact</a>
+				<nav>
+						<ol>
+							<li>
+								<a href="/index">Home</a>
+							</li>
+							<li>
+								<a href="/index#about">About</a>
+							</li>
+							<li>
+								<a href="/index#contact">Contact</a>
+							</li>
+							<li>
+								<a href="/index#resume">Resume</a>
+							</li>
+							<li>
+								<a href="/index#gallery">Gallery</a>
+							</li>
+							<li class="subnav">
+								<span>Work</span>
+								<div>
+									<a href="/pages/wood-art">Wood Art</a>
+									<a href="/pages/furniture">Furniture</a>
+									<a href="/pages/games">Games</a>
+								</div>
+							</li>
+						</ol>
 					</nav>
 					<span>
 						<h1>

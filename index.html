@@ -4,46 +4,51 @@
 <head>
 	<meta charset="utf-8">
 	<title>Beanwood Design</title>
-	<link rel="shortcut icon" type="image/jpg" href="img/placeholder.jpg">
+	<link rel="shortcut icon" type="image/jpg" href="/x/assets/images-small/profile/sarah-profile.jpg">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/s/styles.css">
-	<script async defer type="module-shim" src="x/main.js"></script>
-	<script type="importmap-shim" src="x/importmap.json"></script>
-	<script async defer src="node_modules/es-module-shims/dist/es-module-shims.js"></script>
+	<script async defer type="module-shim" src="/x/main.js"></script>
+	<script type="importmap-shim" src="/x/importmap.json"></script>
+	<script async defer src="/node_modules/es-module-shims/dist/es-module-shims.js"></script>
 </head>
 
 <body>
+	<image-modal></image-modal>
 	<header>
 		<sarah-header></sarah-header>
 	</header>
 	<main>
-		<!-- <section>
-			<sarah-social></sarah-social>
-		</section> -->
-		<section>
-			<div class="work-wrapper">
-				<div>
-					<a><img src="/img/placeholder.jpg" /></a>
-					<a href="/pages/wood-art">Wood Art</a>
-					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-				</div>
-				<div>
-					<a><img src="/img/placeholder.jpg" /></a>
-					<a href="/pages/furniture">Furniture</a>
-					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-				</div>
-				<div>
-					<a><img src="/img/placeholder.jpg" /></a>
-					<a href="/pages/games">Games</a>
-					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-				</div>
+		<section id="social">
+			<div>
+				<a href=""><img class="icons" src="x/assets/images-small/icons/facebook.jpg" /></a>
+				<a href=""><img class="icons" src="x/assets/images-small/icons/instagram.jpg" /></a>
+				<a href=""><img class="icons" src="x/assets/images-small/icons/pinterest.jpg" /></a>
+				<a href=""><img class="icons" src="x/assets/images-small/icons/twitter.jpg" /></a>
 			</div>
 		</section>
-		
-		<section>
-			<div id="about-link" class="about">
-				<img src="/img/placeholder.jpg" />
+		<section id="work">
+			<div class="work-wrapper">
+					<link-button
+						src="x/assets/images-large/projects/wood-art/wood-art_1.jpg"
+						href="/pages/wood-art.html">
+						<p slot="title">Wood Art</p>
+					</link-button>
+					<link-button
+						src="x/assets/images-large/projects/furniture/furniture_1.jpg"
+						href="/pages/furniture.html">
+						<p slot="title">Furniture</p>
+					</link-button>
+					<link-button
+						src="x/assets/images-large/projects/games/games_1.jpg"
+						href="/pages/games">
+						<p slot="title">Games</p>
+					</link-button>
+			</div>
+		</section>
+		<section id="about">
+			<div class="about">
+				<img src="x/assets/images-large/profile/sarah-profile.jpg" />
 				<div>
 					<h1>About</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -58,11 +63,8 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<sarah-gallery></sarah-gallery>
-		</section>
-		<section>
-			<div id="contact-link" class="contact">
+		<section id="contact">
+			<div class="contact">
 				<div>
 					<h3>Contact</h3>
 					<p>Location: Victoria B.C Canada</p>

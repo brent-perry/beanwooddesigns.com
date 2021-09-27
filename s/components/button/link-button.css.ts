@@ -46,7 +46,7 @@ export default css`
 		position: absolute;
 		text-decoration: none;
 		font-size: 1.4em;
-		z-index: 999;
+		z-index: 1;
 	}
 
 `

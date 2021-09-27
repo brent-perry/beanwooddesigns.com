@@ -1,7 +1,21 @@
 [initiallyHidden]{display: none;}
 
+* {
+	color: #ffffff;
+	font-family: Signika, sans-serif;
+}
+
+html {
+	font-size: 1.2em;
+}
+
+body > * {
+	position: relative;
+}
+
 body {
-	background-image: url("/img/background.jpg");
+	overflow-x: hidden;
+	background-image: url("/x/assets/images-large/backgrounds/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -11,13 +25,13 @@ body {
 }
 
 section, main {
-	margin-top: 12em;
-	margin-bottom: 12em;
+	margin-top: 10em;
+	margin-bottom: 10em;
 }
 
-section {
+/* section {
 	background-color: #f5d8acc0;
-}
+} */
 
 h1 {
 	font-size: 1.8em;
@@ -67,4 +81,26 @@ p {
 h3 {
 	font-size: 1.8em;
 	text-align: start;
+}
+
+/* WORK */
+
+
+
+/* SOCIAL MEDIA  */
+
+.icons{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: .5em;
+}
+
+#social {
+	width: 80%;
+	margin: auto;
+}
+
+#social>div {
+	text-align: center;
 }
