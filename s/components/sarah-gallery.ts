@@ -4,9 +4,6 @@ import sarahGalleryCss from "./sarah-gallery.css.js"
 export class SarahGallery extends LitElement {
 	static styles = sarahGalleryCss
 
-	@property({type: Boolean})
-	isEmpty = true
-
 	render() {
 
 		return html`

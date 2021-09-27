@@ -4,9 +4,6 @@ import sarahFooterCss from "./sarah-footer.css.js"
 export class SarahFooter extends LitElement {
 	static styles = sarahFooterCss
 
-	@property({type: Boolean})
-	isEmpty = true
-
 	render() {
 
 		return html`

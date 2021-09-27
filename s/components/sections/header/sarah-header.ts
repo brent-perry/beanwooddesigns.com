@@ -4,9 +4,6 @@ import sarahHeaderCss from "./sarah-header.css.js"
 export class SarahHeader extends LitElement {
 	static styles = sarahHeaderCss
 
-	@property({type: Boolean})
-	isEmpty = true
-
 	render() {
 
 		return html`
@@ -27,7 +24,6 @@ export class SarahHeader extends LitElement {
 						<p>Cheesy line</p>
 						<p>More Cheese</p>
 					</span>
-					<h2>&dArr;</h2>
 				</div>
 			</div>
 		`

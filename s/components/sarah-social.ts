@@ -4,9 +4,6 @@ import sarahSocialCss from "./sarah-social.css.js"
 export class SarahSocial extends LitElement {
 	static styles = sarahSocialCss
 
-	@property({type: Boolean})
-	isEmpty = true
-
 	render() {
 
 		return html`

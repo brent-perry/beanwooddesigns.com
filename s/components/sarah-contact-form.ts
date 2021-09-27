@@ -4,9 +4,6 @@ import sarahContactFormCss from "./sarah-contact-form.css.js"
 export class SarahContactForm extends LitElement {
 	static styles = sarahContactFormCss
 
-	@property({type: Boolean})
-	isEmpty = true
-
 	render() {
 
 		return html`
