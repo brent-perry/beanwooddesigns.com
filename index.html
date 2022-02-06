@@ -15,50 +15,43 @@
 
 <body>
 	<image-modal></image-modal>
-	<div class="header-background">
-		<div>
-			<nav>
-				<ol>
-					<li>
-						<a href="/index">Home</a>
-					</li>
-					<li>
-						<a href="/index#about">About</a>
-					</li>
-					<li>
-						<a href="/index#contact">Contact</a>
-					</li>
-					<li>
-						<a href="/index#gallery">Gallery</a>
-					</li>
-					<li class="subnav">
-						<span>Work</span>
-						<div>
-							<a href="/pages/wood-art">Wood Art</a>
-							<a href="/pages/furniture">Furniture</a>
-							<a href="/pages/games">Games</a>
-						</div>
-					</li>
-				</ol>
-			</nav>
-			<span>
-				<h1>
-					<a href="/index">Beanwood Design</a>
-				</h1>
-				<p>Cheesy line</p>
-				<p>More Cheese</p>
-			</span>
-		</div>
-	</div>
-	<main>
-		<section id="social">
-			<div>
+	<nav>
+		<ol>
+			<li>
+				<a href="/index">Home</a>
+			</li>
+			<li>
+				<a href="/index#about">About</a>
+			</li>
+			<li>
+				<a href="/index#contact">Contact</a>
+			</li>
+			<li>
+				<a href="/index#gallery">Gallery</a>
+			</li>
+			<li class="subnav">
+				<span>Work</span>
+				<div>
+					<a href="/pages/wood-art">Wood Art</a>
+					<a href="/pages/furniture">Furniture</a>
+					<a href="/pages/games">Games</a>
+				</div>
+			</li>
+		</ol>
+	</nav>
+	<header>
+		<h1>
+			<a href="/index">Beanwood Design</a>
+		</h1>
+		<div class="social-wrapper">
+			<img src="x/assets/images-large/backgrounds/header.jpg" />
+			<div class="social-links">
 				<a href=""><img class="icons" src="x/assets/images-small/icons/facebook.jpg" /></a>
 				<a href=""><img class="icons" src="x/assets/images-small/icons/instagram.jpg" /></a>
-				<a href=""><img class="icons" src="x/assets/images-small/icons/pinterest.jpg" /></a>
-				<a href=""><img class="icons" src="x/assets/images-small/icons/twitter.jpg" /></a>
 			</div>
-		</section>
+		</div>
+	</header>
+	<main>
 		<section id="work">
 			<div class="work-wrapper">
 				<link-button src="x/assets/images-large/projects/wood-art/wood-art_1.jpg" href="/pages/wood-art.html">
@@ -75,8 +68,10 @@
 		</section>
 		<section id="about">
 			<div class="about">
-				<img src="x/assets/images-large/profile/sarah-profile.jpg" />
-				<div>
+				<div class="about-img-wrapper">
+					<img src="x/assets/images-large/profile/sarah-profile.jpg" />
+				</div>
+				<div class="about-text-wrapper">
 					<h1>About</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore
@@ -119,12 +114,12 @@
 						<div>
 							<label for="city">City</label>
 							<select class="city" name="city">
-							<option value="victoria">Victoria</option>
-							<option value="langford">Langford</option>
-							<option value="colwood">Colwood</option>
-							<option value="saanich">Saanich</option>
-							<option value="esquimalt">Esquimalt</option>
-							<option value="oak_bay">Oak Bay</option>
+								<option value="victoria">Victoria</option>
+								<option value="langford">Langford</option>
+								<option value="colwood">Colwood</option>
+								<option value="saanich">Saanich</option>
+								<option value="esquimalt">Esquimalt</option>
+								<option value="oak_bay">Oak Bay</option>
 							</select>
 						</div>
 						<div>
@@ -140,34 +135,32 @@
 		</section>
 	</main>
 	<footer>
-		<section>
-			<div>
-				<h2>Social Media</h2>
-				<a>Facebook: Placeholder</a>
-				<a>Instagram: Placeholder</a>
-				<a>Youtube: Placeholder</a>
-				<a>Pinterest: Placeholder</a>
-			</div>
-			<div>
-				<h2>Contact</h2>
-				<a href="/index#contact-link">Contact</a>
-				<a href="/index#about-link">About</a>
-				<a>Phone: 444-444-4444</a>
-				<a>Email: sarah@email.com</a>
-			</div>
-			<div>
-				<h2>Location</h2>
-				<p>Victoria</p>
-				<p>B.C.</p>
-				<p>Canada</p>
-			</div>
-			<div>
-				<h2>Work</h2>
-				<a href="/pages/furniture">Furniture</a>
-				<a href="/pages/games">Games</a>
-				<a href="/pages/wood-art">Wood Art</a>
-			</div>
-		</section>
+		<div>
+			<h2>Social Media</h2>
+			<a>Facebook: Placeholder</a>
+			<a>Instagram: Placeholder</a>
+			<a>Youtube: Placeholder</a>
+			<a>Pinterest: Placeholder</a>
+		</div>
+		<div>
+			<h2>Contact</h2>
+			<a href="/index#contact-link">Contact</a>
+			<a href="/index#about-link">About</a>
+			<a>Phone: 444-444-4444</a>
+			<a>Email: sarah@email.com</a>
+		</div>
+		<div>
+			<h2>Location</h2>
+			<p>Victoria</p>
+			<p>B.C.</p>
+			<p>Canada</p>
+		</div>
+		<div>
+			<h2>Work</h2>
+			<a href="/pages/furniture">Furniture</a>
+			<a href="/pages/games">Games</a>
+			<a href="/pages/wood-art">Wood Art</a>
+		</div>
 		<div class="copyright">
 			<p>Copyright@ Sarah Perry</p>
 		</div>

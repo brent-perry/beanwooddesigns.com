@@ -32,7 +32,7 @@ export default css`
 		border: solid #000000 8px;
 		height: 250px;
 		width: 250px;
-		border-radius: 50%;
+		border-radius: 25%;
 	}
 
 	a {
