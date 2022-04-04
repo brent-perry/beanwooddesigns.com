@@ -27,10 +27,10 @@ export class LinkButton extends LitElement {
 		return html`
 			<figure>
 				<a href="${this.href}">
+					<img src="${this.src}" />
 					<span>
 						<slot name="title"></slot>
 					</span>
-					<img src="${this.src}" alt=""/>
 				</a>
 			</figure>
 		`

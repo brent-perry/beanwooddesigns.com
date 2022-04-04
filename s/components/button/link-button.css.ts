@@ -8,45 +8,24 @@ export default css`
 		align-items: center;
 		display: flex;
 		justify-content: center;
-	}
-
-	span {
-		cursor: pointer;
-		transition: opacity 400ms;
-	}
-
-	a:hover img{
-		box-shadow: none;
-	}
-
-	a:hover span{
-		opacity: 1;
-	}
-
-	a:hover img{
-		opacity: .6;
+		margin: 15px;
+		padding: 0;
 	}
 
 	img {
-		box-shadow: 0px 0px 8px 8px #888888;
-		border: solid #000000 8px;
-		height: 250px;
-		width: 250px;
-		border-radius: 25%;
+		box-shadow: 10px 10px 5px #cccccc;
+		border: solid #ffffff 2px;
+		height: 190px;
+		width: 300px;
+		background-repeat: no-repeat;
 	}
 
 	a {
+		text-decoration: none;
+	}
+
+	slot {
 		display: flex;
 		justify-content: center;
-		align-items: center;
 	}
-
-	span {
-		opacity: 0;
-		position: absolute;
-		text-decoration: none;
-		font-size: 1.4em;
-		z-index: 1;
-	}
-
 `
