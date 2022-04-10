@@ -12,14 +12,6 @@ export default css`
 		padding: 0;
 	}
 
-	/* img {
-		box-shadow: 10px 10px 5px #cccccc;
-		border: solid #ffffff 2px;
-		height: 190px;
-		width: 300px;
-		background-repeat: no-repeat;
-	} */
-
 	img {
 		transition: all .4s ease-out;
 		width: 300px;
@@ -34,7 +26,9 @@ export default css`
 	}
 
 	slot {
+		font-weight: 300;
 		display: flex;
+		font-size: 1.4em;
 		justify-content: center;
 	}
 `
