@@ -15,7 +15,7 @@
 
 <body>
 	<image-modal></image-modal>
-	<nav>
+	<nav id="menu">
 		<ol>
 			<li>
 				<a href="/index">Home</a>
@@ -35,17 +35,20 @@
 			<li class="subnav">
 				<span>Work</span>
 				<div>
-					<a href="/pages/mosaics">Mosaics</a>
-					<a href="/pages/furniture">Furniture</a>
-					<a href="/pages/games">Games</a>
-					<a href="/pages/children-furniture">Children Furniture</a>
-					<a href="/pages/puzzles">Puzzles</a>
-					<a href="/pages/signs">Signs</a>
-					<a href="/pages/trays">Trays</a>
+					<a href="/pages/mosaics" target="_blank">Mosaics</a>
+					<a href="/pages/furniture" target="_blank">Furniture</a>
+					<a href="/pages/games" target="_blank">Games</a>
+					<a href="/pages/children-furniture" target="_blank">Children Furniture</a>
+					<a href="/pages/signs" target="_blank">Signs</a>
+					<a href="/pages/trays" target="_blank">Trays</a>
 				</div>
 			</li>
 		</ol>
+		<p id="close_button">X</p>
 	</nav>
+	<div id="open_button_wrapper">
+		<p id="open_button">Menu</p>
+	</div>
 	<header>
 		<img class="logo" src="x/assets/images-small/logo/beanwood_designs_logo.jpg" />
 	</header>
@@ -53,27 +56,24 @@
 		<section id="work">
 			<div class="work-wrapper">
 				<link-button src="x/assets/images-large/projects/mosaics/mosaic_1.jpg" href="/pages/mosaics.html">
-					<p slot="title">Mosaics</p>
+					<h2 slot="title">Mosaics</h2>
 				</link-button>
 				<link-button src="x/assets/images-large/projects/furniture/furniture_10.jpg"
 					href="/pages/furniture.html">
-					<p slot="title">Furniture</p>
+					<h2 slot="title">Furniture</h2>
 				</link-button>
 				<link-button src="x/assets/images-large/projects/trays/tray_1.jpg" href="/pages/trays.html">
-					<p slot="title">Trays</p>
+					<h2 slot="title">Trays</h2>
 				</link-button>
 				<link-button src="x/assets/images-large/projects/signs/sign_4.jpg" href="/pages/signs.html">
-					<p slot="title">Signs</p>
+					<h2 slot="title">Signs</h2>
 				</link-button>
 				<link-button src="x/assets/images-large/projects/children-furniture/c_f_2.jpg"
 					href="/pages/children-furniture.html">
-					<p slot="title">Children Furniture</p>
+					<h2 slot="title">Children Furniture</h2>
 				</link-button>
 				<link-button src="x/assets/images-large/projects/games/games_1.jpg" href="/pages/games.html">
-					<p slot="title">Games</p>
-				</link-button>
-				<link-button src="x/assets/images-large/projects/furniture/furniture_1.jpg" href="/pages/puzzles.html">
-					<p slot="title">Puzzles</p>
+					<h2 slot="title">Games</h2>
 				</link-button>
 			</div>
 		</section>
@@ -91,7 +91,7 @@
 		<section id="about">
 			<div class="about">
 				<div class="about-img-wrapper">
-					<img src="x/assets/images-large/profile/sarah-profile.jpg" />
+					<img src="x/assets/images-large/profile/sarah-profile_2.jpg" />
 				</div>
 				<div class="about-text-wrapper">
 					<h1>About</h1>

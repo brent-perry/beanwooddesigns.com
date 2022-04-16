@@ -14,12 +14,6 @@ export class EnlargeImage extends LitElement {
 	src = ""
 
 	@property({type: String, reflect: true})
-	alt = ""
-
-	@property({type: String, reflect: true})
-	title = ""
-
-	@property({type: String, reflect: true})
 	large = ""
 
 	firstUpdated() {
@@ -27,7 +21,7 @@ export class EnlargeImage extends LitElement {
 	}
 
 	enlargeImage() {
-		this.openModal({src: this.large, alt: this.alt, title: this.title})
+		this.openModal({src: this.large})
 	}
 
 	openModal(details: EnlargeDetails) {
@@ -38,14 +32,9 @@ export class EnlargeImage extends LitElement {
 
 		return html`
 			<div>
-				<h1 @click=${this.enlargeImage}>
-					${this.title}
-				</h1>
 				<img
 					@click=${this.enlargeImage}
 					src="${this.src}"
-					alt="${this.alt}"
-					title="${this.title}"
 					large="${this.large}"
 				/>
 			</div>
