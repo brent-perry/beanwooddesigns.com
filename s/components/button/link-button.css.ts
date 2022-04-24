@@ -31,4 +31,36 @@ export default css`
 		font-size: 1.4em;
 		justify-content: center;
 	}
+
+	@media screen and (max-width: 886px) {
+	
+	img {
+		height: 250px;
+		width: 250px;
+	}
+}
+
+	@media screen and (max-width: 670px) {
+	
+	img {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	
+	img {
+		height: 180px;
+		width: 180px;
+	}
+}
+
+	@media screen and (max-width: 499px) {
+	
+	img {
+		height: 250px;
+		width: 250px;
+	}
+}
 `

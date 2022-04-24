@@ -23,4 +23,29 @@ export default css`
 		border: 2px solid #000000;
 		object-fit: cover;
 	}
+	
+	@media screen and (max-width: 768px) {
+	
+	img {
+		height: 250px;
+		width: 250px;
+	}
+	
+}
+
+	@media screen and (max-width: 645px) {
+	
+	img {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+	@media screen and (max-width: 499px) {
+	
+	img {
+		height: 250px;
+		width: 250px;
+	}
+}
 	`

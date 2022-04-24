@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8">
-		<title>Beanwood Designs</title>
-		<link rel="shortcut icon" type="image/jpg" href="/x/assets/images-small/logo/beanwood_designs_logo.jpg">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/s/styles.css">
-		<script async defer type="module-shim" src="/x/main.js"></script>
-		<script type="importmap-shim" src="/x/importmap.json"></script>
-		<script async defer src="/node_modules/es-module-shims/dist/es-module-shims.js"></script>
-	</head>
-	
-	<body>
-		<image-modal></image-modal>
-		<nav>
-			<ol>
-				<li>
-					<a href="/index">Home</a>
-				</li>
-				<li>
-					<a href="/index#about">About</a>
-				</li>
-				<li>
-					<a href="/index#contact">Contact</a>
-				</li>
-				<li>
-					<a href="/index#events">Events</a>
-				</li>
-				<li>
-					<a href="/index#shop">Shop</a>
-				</li>
-				<li class="subnav">
-					<span>Work</span>
-					<div>
-						<a href="/pages/mosaics">Mosaics</a>
-						<a href="/pages/furniture">Furniture</a>
-						<a href="/pages/games">Games</a>
-						<a href="/pages/children-furniture">Children Furniture</a>
-						<a href="/pages/signs">Signs</a>
-						<a href="/pages/trays">Trays</a>
-					</div>
-				</li>
-			</ol>
-		</nav>
-		<header>
-			<img class="logo" src="x/assets/images-small/logo/beanwood_designs_logo.jpg" />
-		</header>
+<head>
+	<meta charset="utf-8">
+	<title>Beanwood Designs</title>
+	<link rel="shortcut icon" type="image/jpg" href="/x/assets/images-small/logo/beanwood_designs_logo.jpg">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/s/styles.css">
+	<script async defer type="module-shim" src="/x/main.js"></script>
+	<script type="importmap-shim" src="/x/importmap.json"></script>
+	<script async defer src="/node_modules/es-module-shims/dist/es-module-shims.js"></script>
+</head>
+
+<body>
+	<image-modal></image-modal>
+	<nav id="menu">
+		<ol>
+			<li>
+				<a class="close_menu_link_button" href="/index">Home</a>
+			</li>
+			<li>
+				<a class="close_menu_link_button" href="/index#about">About</a>
+			</li>
+			<li>
+				<a class="close_menu_link_button" href="/index#contact">Contact</a>
+			</li>
+			<li>
+				<a class="close_menu_link_button" href="/index#events">Events</a>
+			</li>
+			<li>
+				<a class="close_menu_link_button" href="/index#shop">Shop</a>
+			</li>
+			<li class="subnav">
+				<span>Work</span>
+				<div>
+					<a href="/pages/mosaics" target="_blank">Mosaics</a>
+					<a href="/pages/furniture" target="_blank">Furniture</a>
+					<a href="/pages/games" target="_blank">Games</a>
+					<a href="/pages/children-furniture" target="_blank">Children Furniture</a>
+					<a href="/pages/signs" target="_blank">Signs</a>
+					<a href="/pages/trays" target="_blank">Trays</a>
+				</div>
+			</li>
+		</ol>
+		<p id="close_button">X</p>
+	</nav>
+	<div id="open_button_wrapper">
+		<p id="open_button">Menu</p>
+	</div>
+	<header>
+		<img class="logo" src="../x/assets/images-small/logo/beanwood_designs_logo.jpg" />
+	</header>
 	<main>
 		<section>
-			<h1>wups</h1>
+			<div class="error-page">
+				<h1>404</h1>
+				<h2>Page Not Found</h2>
+				<h3>Click here to go home</h3>
+			</div>
 		</section>
 	</main>
 	<footer>
