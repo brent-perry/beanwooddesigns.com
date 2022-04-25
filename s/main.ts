@@ -21,12 +21,13 @@ modal.onUpdate = opened => {
 }
 
 const mq = window.matchMedia("(min-width: 700px)")
-let menu = document.getElementById("menu")
-let openMenuButton = document.getElementById("open_button")
-let closeMenuButton = document.getElementById("close_button")
-let openButtonWrapper = document.getElementById("open_button_wrapper")
+const menu = document.getElementById("menu")
+const openMenuButton = document.getElementById("open_button")
+const closeMenuButton = document.getElementById("close_button")
+const openButtonWrapper = document.getElementById("open_button_wrapper")
 const closeMenuLinkButtons = document.querySelectorAll(".close_menu_link_button")
-
+const openSubNav = document.querySelector(".open-sub-nav")
+const subNavContents = document.querySelector(".sub-nav-contents")
 closeMenuLinkButtons.forEach(el => el.addEventListener("click", () => {
 	CloseMenu()
 }))
@@ -56,4 +57,15 @@ openMenuButton.addEventListener("click", () => {
 
 closeMenuButton.addEventListener("click", () => {
 	CloseMenu()
+})
+
+function OpenSubNav() {
+	if(subNavContents.classList.contains("show"))
+	subNavContents.classList.remove("show")
+	else
+	subNavContents.classList.add("show")
+}
+
+openSubNav.addEventListener("click", () => {
+	OpenSubNav()
 })

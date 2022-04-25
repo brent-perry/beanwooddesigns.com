@@ -41,6 +41,7 @@ header, main, footer {
 
 main {
 	border-top: solid 1px #000000;
+	padding-bottom: 3em;
 }
 
 .work-in-progress-redirect-link {
@@ -95,6 +96,11 @@ header h1 {
 	display: none;
 }
 
+.show {
+	display: flex !important;
+	flex-wrap: wrap;
+}
+
 nav {
 	width: 100%;
 	top: 0;
@@ -145,7 +151,7 @@ a:hover, .subnav span:hover {
 	width: 100%;
 }
 
-.subnav>div {
+.sub-nav-contents {
 	position: absolute;
 	display: none;
 	padding-left: .3em;
@@ -158,10 +164,10 @@ li:hover {
 	color: #cfb07b;
 }
 
-.subnav:hover div {
+/* .subnav:hover div {
 	display: flex;
 	flex-wrap: wrap;
-}
+} */
 
 .subnav span {
 	margin: 0;
