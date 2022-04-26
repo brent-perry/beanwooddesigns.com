@@ -16,6 +16,9 @@ export class EnlargeImage extends LitElement {
 	@property({type: String, reflect: true})
 	large = ""
 
+	@property({type: String, reflect: true})
+	alt = ""
+
 	firstUpdated() {
 		this.initiallyHidden = false
 	}
@@ -36,6 +39,7 @@ export class EnlargeImage extends LitElement {
 					@click=${this.enlargeImage}
 					src="${this.src}"
 					large="${this.large}"
+					alt="${this.alt}"
 				/>
 			</div>
 		`

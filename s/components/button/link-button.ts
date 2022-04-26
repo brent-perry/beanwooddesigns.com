@@ -18,6 +18,9 @@ export class LinkButton extends LitElement {
 	
 	@property({type: String, reflect: true})
 	src = ""
+
+	@property({type: String, reflect: true})
+	alt = ""
 	
 	firstUpdated() {
 		this.initiallyHidden = false
@@ -27,7 +30,7 @@ export class LinkButton extends LitElement {
 		return html`
 			<figure>
 				<a href="${this.href}">
-					<img src="${this.src}" />
+					<img src="${this.src}" alt="${this.alt}" />
 					<span>
 						<slot name="title"></slot>
 					</span>
