@@ -28,7 +28,7 @@ jobs:
         sed -i.bak -e '/^\/node_modules$/d' .gitignore
         sed -i.bak -e '/^\/x$/d' .gitignore
     - name: 🚀 gh-pages deployment
-      uses: JamesIves/github-pages-deploy-action@4.3.0
+      uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
         branch: gh-pages
         folder: .
