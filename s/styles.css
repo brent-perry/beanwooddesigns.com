@@ -188,6 +188,7 @@ span p {
 }
 
 h1 {
+	width: 100%;
 	font-size: 2em;
 	text-align: center;
 	font-weight: 900;
@@ -367,7 +368,7 @@ footer {
 }
 
 @media screen and (max-width: 530px) {
-	
+
 	main, footer {
 		width: 90%
 	}
@@ -477,5 +478,11 @@ footer {
 		position: absolute;
 		top: 24%;
 		right: 43%;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.subnav>div {
+		right: 6%;
 	}
 }
