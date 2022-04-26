@@ -1,6 +1,10 @@
 # Beanwood Designs
+# Reclaimed Wood Art
+# Furniture
+# Games
+# Mosaics
 
-# do your work on master.
+# Do your work on master.
 # when you want to release,
 # checkout release, merge it up to master, then push it.
 # switch back to master when you're done.
