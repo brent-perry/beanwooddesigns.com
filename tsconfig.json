@@ -14,7 +14,7 @@
 	"include": [
 		"s/**/*.ts",
 		"s/**/*.js"
-	],
+, "s/components/BwdEmail"	],
 	"exclude": [
 		"s/**/_*"
 	],

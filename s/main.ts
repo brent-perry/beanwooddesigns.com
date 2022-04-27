@@ -1,10 +1,12 @@
 import {EnlargeImage} from "./components/enlarge-image/enlarge-image.js"
 import {LinkButton} from "./components/button/link-button.js"
 import {ImageModal} from "./components/modal/image-modal.js"
+import {BwdEmail} from "./components/BwdEmail/bwd-email.js"
 
 customElements.define("image-modal", ImageModal)
 customElements.define("enlarge-image", EnlargeImage)
 customElements.define("link-button", LinkButton)
+customElements.define("bwd-email", BwdEmail)
 
 const modal: ImageModal = document.querySelector('image-modal')
 const header = document.querySelector('header')
