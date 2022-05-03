@@ -178,6 +178,10 @@ a, ::part(link), .subnav span {
 	padding: .5em;
 }
 
+::part(link) {
+	font-size: 1em;
+}
+
 span p {
 	color: #000000;
 }
