@@ -30,8 +30,12 @@ const openButtonWrapper = document.getElementById("open_button_wrapper")
 const closeMenuLinkButtons = document.querySelectorAll(".close_menu_link_button")
 const openSubNav = document.querySelector(".open-sub-nav")
 const subNavContents = document.querySelector(".sub-nav-contents")
+
 closeMenuLinkButtons.forEach(el => el.addEventListener("click", () => {
-	CloseMenu()
+	if(!mq.matches)
+	{
+		CloseMenu()
+	}
 }))
 
 window.addEventListener("resize", () => {
@@ -62,10 +66,10 @@ closeMenuButton.addEventListener("click", () => {
 })
 
 function OpenSubNav() {
-	if(subNavContents.classList.contains("show"))
-	subNavContents.classList.remove("show")
+	if (subNavContents.classList.contains("show"))
+		subNavContents.classList.remove("show")
 	else
-	subNavContents.classList.add("show")
+		subNavContents.classList.add("show")
 }
 
 openSubNav.addEventListener("click", () => {
