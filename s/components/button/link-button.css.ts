@@ -14,10 +14,9 @@ export default css`
 
 	img {
 		transition: all .4s ease-out;
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 		cursor: pointer;
-		border: 2px solid #000000;
 		object-fit: cover;
 	}
 
