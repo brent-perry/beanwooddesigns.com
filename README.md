@@ -8,6 +8,8 @@
 # when you want to release,
 # checkout release, merge it up to master, then push it.
 # switch back to master when you're done.
+# make commits ONLY on master 
+
 git push master
 git checkout release
 git merge master
