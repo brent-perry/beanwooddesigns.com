@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "http-server",
+		"http": "http-server",
+		"start": "run-p http watch",
 		"build": "run-s clean && run-p compile importmap images-small images-large",
 		"compile": "tsc",
 		"watch": "tsc -w",

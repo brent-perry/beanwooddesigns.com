@@ -13,3 +13,8 @@ git checkout release
 git merge master
 git push
 git checkout master
+
+npm install
+npm run build
+npm start
+
