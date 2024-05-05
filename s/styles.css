@@ -34,13 +34,11 @@ body {
 }
 
 header, main, footer {
-	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 main {
-	border-top: solid 1px #000000;
 	padding-bottom: 3em;
 }
 
@@ -56,20 +54,13 @@ main {
 }
 
 section {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding-top: 3em;
-	padding-bottom: 3em;
-	border-top: solid 1px #000000;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 section:first-child {
 	border: none;
-}
-
-section {
-	text-align: center;
 }
 
 section p, footer p {
@@ -79,8 +70,6 @@ section p, footer p {
 
 /* HEADER */
 header {
-	padding-bottom: 3em;
-	padding-top: 3em;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -104,7 +93,6 @@ nav {
 	width: 100%;
 	top: 0;
 	position: fixed;
-	background-color: #E2DDD3;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	z-index: 4;
@@ -120,7 +108,18 @@ nav {
 .logo {
 	height: 300px;
 	width: 300px;
-	margin-top: 2em;
+	margin-top: 4em;
+	position: absolute;
+}
+
+.slider-background {
+	background-image: url(/x/assets/images-large/profile/sarah-profile_2.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
 }
 
 ol {
@@ -200,7 +199,6 @@ h2 {
 .work-wrapper {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 
 .project_wrapper {
@@ -253,6 +251,11 @@ link-button h2:hover {
 }
 
 /* CONTACT */
+.contact {
+	background-color:#907647 ;
+	padding: 2em;
+}
+
 .contact div>p, h3 {
 	color: #000000;
 }
@@ -329,14 +332,13 @@ form div:nth-child(7) {
 footer {
 	font-size: 1em;
 	line-height: 0px;
-	border-top: solid 1px #000000;
-	padding-top: 3em;
+	padding-top: 2em;
 	word-break: break-word;
 }
 
 .footer-wrapper {
 	flex-wrap: wrap;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 	display: flex;
 	justify-content: center;
 }
