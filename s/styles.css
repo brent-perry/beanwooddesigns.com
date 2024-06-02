@@ -3,19 +3,17 @@
 }
 
 @font-face {
-	font-family: Glacial Indifference;
-	src: url(/assets/fonts/main/glacial-indifference/GlacialIndifference-Regular.otf);
+	font-family: Abril Fatface;
+	src: url(/assets/fonts/main/AbrilFatface-Regular.ttf);
 }
 
 @font-face {
-	font-family: HK Grotesk Light;
-	src: url(/assets/fonts/secondary/hk-grotesk.light.otf);
+	font-family: ITC Johnston;
+	src: url(/assets/fonts/secondary/Johnston\ ITC\ Std\ Medium.ttf);
 }
 
 * {
-	font-family: 'Glacial Indifference', sans-serif;
-	line-height: 40px;
-	letter-spacing: 1px;
+	font-family: 'ITC Johnston', sans-serif;
 	color: #000000;
 }
 
@@ -28,7 +26,7 @@ body>* {
 }
 
 body {
-	background-color: #E2DDD3;
+	background-color: #907647;
 	margin: 0;
 	padding: 0;
 }
@@ -43,7 +41,6 @@ main {
 }
 
 .work-in-progress-redirect-link {
-	font-family: 'HK Grotesk Light', sans-serif;
 	font-size: 1em;
 	padding: 0;
 	color: #f22fa4;
@@ -61,11 +58,6 @@ section {
 
 section:first-child {
 	border: none;
-}
-
-section p, footer p {
-	font-family: 'HK Grotesk Light', sans-serif;
-
 }
 
 /* HEADER */
@@ -98,6 +90,7 @@ nav {
 	z-index: 4;
 	display: flex;
 	justify-content: center;
+	text-transform: capitalize;
 }
 
 .nav-wrapper {
@@ -188,15 +181,37 @@ h1 {
 	width: 100%;
 	font-size: 2em;
 	text-align: center;
-	font-weight: 900;
+	font-family: 'Abril Fatface';
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: .8em;
 }
 
 /* WORK */
-.work-wrapper {
+#work img {
+	height: 300px;
+	width: 300px;
+	margin: 1em;
+}
+
+.work-button-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+
+.featured-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.featured-wrapper h2 {
+	color: #ffffff;
+}
+
+featured-wrapper-1, featured-wrapper-2, featured-wrapper-3 {
 	display: flex;
 	justify-content: center;
 }
@@ -209,24 +224,20 @@ h2 {
 	flex: 0 0 auto;
 }
 
-image-modal {
-	position: relative;
-	z-index: 999;
-}
-
-link-button h2:hover {
-	color: #cfb07b;
-}
-
-/* INSTAGRAM */
-#instagram>h1, #instagram>p {
-	color: #000000;
+.shop-button {
+	background-color: #ffffff; 
+	color: #907647;
+	padding: 15px 32px;
 	text-align: center;
+	text-decoration: none;
+	margin: 1em;
 }
 
 /* ABOUT */
 .about {
 	text-align: center;
+	background-color:#E2DDD3 ;
+	padding: 2em;
 }
 
 .about h1, .about p {
@@ -252,7 +263,7 @@ link-button h2:hover {
 
 /* CONTACT */
 .contact {
-	background-color:#907647 ;
+	background-color: #907647;
 	padding: 2em;
 }
 
@@ -330,10 +341,10 @@ form div:nth-child(7) {
 
 /* FOOTER */
 footer {
-	font-size: 1em;
-	line-height: 0px;
 	padding-top: 2em;
 	word-break: break-word;
+	background-color:#E2DDD3 ;
+	padding: 2em;
 }
 
 .footer-wrapper {
@@ -344,12 +355,17 @@ footer {
 }
 
 .footer-wrapper p {
-	margin: 0;
+	margin: 1em;
 	padding: 0;
 	width: 100%;
 	text-align: center;
 }
 
+.font-license, .font-license a {
+	font-size: .5em;
+}
+
+/* ERROR PAGE */
 .error-page {
 	display: flex;
 	flex-wrap: wrap;
