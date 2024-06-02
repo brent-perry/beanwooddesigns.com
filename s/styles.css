@@ -189,6 +189,11 @@ h2 {
 }
 
 /* WORK */
+
+#work h1 {
+	color: #ffffff;
+}
+
 #work img {
 	height: 300px;
 	width: 300px;
@@ -207,7 +212,7 @@ h2 {
 	justify-content: center;
 }
 
-.featured-wrapper h2 {
+.featured-wrapper p {
 	color: #ffffff;
 }
 
@@ -224,13 +229,16 @@ featured-wrapper-1, featured-wrapper-2, featured-wrapper-3 {
 	flex: 0 0 auto;
 }
 
+.shop-button a {
+	color: #907647;
+}
+
 .shop-button {
 	background-color: #ffffff; 
-	color: #907647;
-	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	margin: 1em;
+	padding: 1em;
 }
 
 /* ABOUT */
@@ -262,6 +270,10 @@ featured-wrapper-1, featured-wrapper-2, featured-wrapper-3 {
 }
 
 /* CONTACT */
+#contact h1, #contact p {
+	color: #ffffff;
+}
+
 .contact {
 	background-color: #907647;
 	padding: 2em;
