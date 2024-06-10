@@ -103,16 +103,31 @@ nav {
 	width: 300px;
 	margin-top: 4em;
 	position: absolute;
+	z-index: 99999;
 }
 
 .slider-background {
-	background-image: url(/x/assets/images-large/profile/sarah-profile_2.webp);
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-wrap: wrap;
 	height: 100%;
 	width: 100%;
+	display: block;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .4;
+	background-color: #000000;
+
+}
+
+.overlay-container {
+	width: 100%;
+	position: relative;
 }
 
 ol {
